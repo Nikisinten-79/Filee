@@ -1,0 +1,14 @@
+Proxies
+  -name: BIZ IKD
+   server: 104.17.3.81
+   port: 443
+   type: trojan
+   password: ba91e254-5420-4566-8914-45ec4a46862d
+   skip-cert-verify: true
+   sni: id9.natanvpn.xyz
+   network: ws
+   ws-opts:
+    path: /PATH
+    headers:
+      Host: id9.natanvpn.xyz
+   udp: true
